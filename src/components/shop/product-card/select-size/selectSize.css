@@ -1,0 +1,50 @@
+.select_size_wrapper {
+  width: 100%;
+}
+
+.select_size_label {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #202020;
+  padding: 0 0 10px;
+}
+.size_wrapper {
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.size_spacing {
+  padding: 0 7px;
+}
+
+.size_chip {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: transparent;
+  border: 1px solid #747474;
+  color: #747474;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.size_chip:hover {
+  background: #747474;
+  transition: background 0.3s;
+  color: #fff;
+}
+
+.size_text {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+}

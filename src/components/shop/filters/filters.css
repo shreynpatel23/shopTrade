@@ -1,0 +1,61 @@
+.filter_wrapper {
+  width: 100%;
+  overflow: auto;
+  display: flex;
+  align-items: center;
+}
+
+.filter_chips_wrapper {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.filter_chip_spacing {
+  padding-right: 10px;
+}
+
+.filter_chip {
+  padding: 10px 20px;
+  border-radius: 36px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #747474;
+  color: #747474;
+  background: transparent;
+  cursor: pointer;
+}
+
+.filter_chip:hover {
+  background: #747477;
+  color: #fff;
+  transition: background 0.15s;
+}
+
+.filter_chip_text {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.active_filter {
+  background: #747474;
+  color: #fff;
+}
+
+.clear_filter {
+  padding-left: 10px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #999;
+  cursor: pointer;
+  white-space: nowrap;
+}

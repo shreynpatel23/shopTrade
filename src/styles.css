@@ -1,0 +1,38 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+  margin: 0;
+}
+
+.app_wrapper {
+  height: 100vh;
+}
+.playground {
+  height: 93%;
+  overflow: auto;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .playground {
+    height: 93%;
+  }
+}
