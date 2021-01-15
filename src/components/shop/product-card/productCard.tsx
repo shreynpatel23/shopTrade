@@ -42,7 +42,6 @@ export default function ProductCard({
                     toggleAddToCart.data === product ? (
                       <SelectSize
                         options={product.options}
-                        // selectedSize={(value: Option) => selectedProduct({...product, selectedSize: value})}
                         selectedSize={(value: Option) => {
                           setToggleAddToCart((toggleAddToCart) => ({
                             ...toggleAddToCart,
