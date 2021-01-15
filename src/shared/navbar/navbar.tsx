@@ -2,7 +2,7 @@ import * as React from "react";
 import "./navbar.css";
 import logo from "../../assets/images/logo.svg";
 import downArrow from "../../assets/images/arrow-down.svg";
-import { CART, navItems } from "../../constants/nav-items";
+import { CART, navItems, SHOP } from "../../constants/nav-items";
 import searchImage from "../../assets/images/search.svg";
 import userImage from "../../assets/images/user.svg";
 import cartImage from "../../assets/images/cart.svg";
@@ -18,7 +18,12 @@ export default function Navbar({
   const [toggleInput, setToggleInput] = React.useState(false);
   return (
     <div className="background">
-      <img src={logo} alt="logo" className="logo" />
+      <img
+        src={logo}
+        alt="logo"
+        className="logo"
+        onClick={() => setActiveTab(SHOP.toLowerCase())}
+      />
       <div className="horizontal_nav_items">
         <div className="nav_items">
           {navItems.map((item, index) => {
